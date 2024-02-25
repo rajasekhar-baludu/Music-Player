@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleloginpage.css">
+    <link rel="icon" type="img/png" href="img/spotify-login.png">
+    <title>Spotify Login</title>
+</head>
+<body>
+    
+    <div class="center">
+        <img src="img/231-2319995_spotify-spotify-logo-on-black.png" alt="spotify">
+        <p class="cont">TO continue, login to Spotify</p>
+        <a href="index.html" target="_self">  Continue with Facebook</a><br>
+        <a href="index.html" target="_self">Continue with Apple</a><br>
+        <a href="index.html" target="_self">Continue with Google</a><br>
+        <a href="index.html" target="_self">Continue with Phone Number</a><br>
+        <form id="login-form" action="#">
+            <div class="input-grid">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                type="email"
+                class="input"
+                placeholder="Email Address"
+                id="email"
+                required />
+                <label for="pass" class="form-label" >Password</label>
+                <input type="password" class="input" id="pass" required />
+            </div>
+            <div class="form-down">
+                <div class="for-check">
+                    <p>Forgot Your password?</p>
+                </div>
+                <button type="submit">Sign In</button>
+            </div>
+        </form>
+    </div>
+    <script src="loginpg.js"></script>
+</body>
+</html>

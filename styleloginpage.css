@@ -1,0 +1,83 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+.center{
+    display: grid;
+    place-items: center;
+}
+
+img{
+    width: 200px;
+    height: 70px;
+    position: relative;
+    border: 1px;
+    border-bottom-style: solid;
+    border-color: azure;
+}
+.center .cont{
+    font-weight: bold;
+}
+
+a{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-color: wheat;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 12px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    width: 400px;
+    color: white;
+}
+a:hover{
+    border-width: 2px;
+    border-color: white;
+}
+
+.input-grid{
+    display: grid;
+}
+
+.form-label{
+    padding-bottom: 12px;
+}
+
+.input{
+    padding: 15px;
+    width: 400px;
+    border: 1px ;
+    
+}
+
+.input:nth-child(2){
+    margin-bottom: 15px;
+}
+
+.form-down
+{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.form-down .for-check{
+    text-decoration: underline white;
+}
+.form-down button{
+    background-color: rgb(49, 228, 70);
+    margin-left: 40%;
+    color: white;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.form-down button:hover{
+    border: 1px solid white;
+}
